@@ -44,7 +44,7 @@ const Home = () => {
             <a
               // style={{ backgroundColor: "#DD1155" }}
               href="#contact"
-              className="mt-10 w-30 bg-pink-600 border-2 border-pink-600 hover:border-2 0 hover:text-black hover:bg-white text-white font-bold py-2 px-5 rounded-lg mt-3 transition ease-in-out duration-300 text-center mr-1"
+              className="mt-10 w-30 bg-pink-600 border-2 border-pink-600 hover:border-2 0 hover:text-gray-700 hover:bg-white text-white font-bold py-2 px-5 rounded-lg mt-3 transition ease-in-out duration-300 text-center mr-1"
             >
               Let's talk
             </a>
@@ -55,7 +55,7 @@ const Home = () => {
               href="https://drive.google.com/file/d/1K_-VEx948gHzJPKUS7yRCXoUm6vi0BFF/view?usp=sharing"
               rel="noreferrer"
               target="_blank"
-              className="border border-2 hover:text-white hover:bg-pink-600 mt-10 w-34 ml-1 font-bold py-2 px-4 rounded-lg mt-3 transition ease-in-out duration-300 text-center"
+              className="border text-gray-700 border-2 hover:text-white hover:bg-pink-600 mt-10 w-34 ml-1 font-bold py-2 px-4 rounded-lg mt-3 transition ease-in-out duration-300 text-center"
             >
               My Resume
             </a>
