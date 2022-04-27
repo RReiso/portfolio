@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home {
+  height: 100%;
+  color: red;
+  background-image: url(./wave.svg);
+  background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
