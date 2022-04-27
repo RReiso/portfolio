@@ -14,8 +14,18 @@ describe("Home", () => {
 
   test("should have link to contact form", () => {
     render(<Home />);
-    const link = screen.getByRole("link");
+    const link = screen.getByRole("link", { name: /let's talk/i });
     expect(link).toBeInTheDocument();
     expect(link).toHaveAttribute("href", "#contact");
+  });
+
+  test("should have link to resume", () => {
+    render(<Home />);
+    const link = screen.getByRole("link", { name: /my resume/i });
+    expect(link).toBeInTheDocument();
+    expect(link).toHaveAttribute(
+      "href",
+      "https://drive.google.com/file/d/1K_-VEx948gHzJPKUS7yRCXoUm6vi0BFF/view?usp=sharing"
+    );
   });
 });

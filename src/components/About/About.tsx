@@ -6,23 +6,17 @@ const About = () => {
     width: "4rem",
   };
   return (
-    <section
-      id="#about"
-      className="text-white mt-8"
-      style={{ backgroundColor: "#252934" }}
-    >
-      <h3 className="text-4xl pt-8 uppercase text-center tracking-wide">
-        About
-      </h3>
-      <hr className="m-auto h-1 mt-3 w-20 bg-white" />
-      <div className="md:mt-12 py-5 md:py-0 flex px-4 sm:px-12 md:px-20 flex-col items-center justify-center md:flex-row  mx-auto">
-        <p className="py-6 px-1 sm:w-1/2 text-xl leading-8">
+    <section id="about" className="text-gray-200 mt-8 py-14 bg-[#0a192f]">
+      <h3 className="text-4xl uppercase text-center tracking-wide">About</h3>
+      <hr className="m-auto h-1 mt-3 w-20 bg-pink-600" />
+      <div className="md:mt-12 py-5 md:py-0 flex px-4 sm:px-12  md:px-20 flex-col items-center justify-center md:flex-row  mx-auto">
+        <p className="py-6 px-1 md:pr-8 md:w-1/2 text-xl leading-8 text-center">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
           tempore, iure adipisci sit, recusandae saepe praesentium in culpa unde
           sequi laudantium aut ullam nobis, assumenda quod facilis autem
           voluptate alias?
         </p>
-        <div className="sm:w-1/2">
+        <div className="md:w-1/2">
           <h6 className="text-2xl text-center py-4">My skills</h6>
           <div className="flex flex-wrap  justify-center">
             <img
