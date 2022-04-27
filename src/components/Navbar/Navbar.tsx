@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <>
       <nav
-        style={{ backgroundColor: "#375078" }}
+        style={{ backgroundColor: "#D10D95" }}
         className="relative flex  items-center  px-1 py-2"
       >
         <div className="container px-2 mx-auto flex flex-wrap items-center justify-between">
@@ -33,7 +33,7 @@ const Navbar = () => {
               <li className="nav-item flex items-center">
                 <a
                   className="px-3 py-2 flex items-center text-md uppercase leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="#home"
                 >
                   Home
                 </a>
@@ -41,7 +41,7 @@ const Navbar = () => {
               <li className="nav-item flex items-center">
                 <a
                   className="px-3 py-2 flex items-center text-md uppercase leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="#about"
                 >
                   About
                 </a>
@@ -49,7 +49,7 @@ const Navbar = () => {
               <li className="nav-item flex items-center">
                 <a
                   className="px-3 py-2 flex items-center text-md uppercase leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="#projects"
                 >
                   Projects
                 </a>
@@ -57,7 +57,7 @@ const Navbar = () => {
               <li className="nav-item flex items-center">
                 <a
                   className="px-3 py-2 flex items-center text-md uppercase leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="#contact"
                 >
                   Contact
                 </a>
