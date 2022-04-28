@@ -28,7 +28,7 @@ const Projects = () => {
                         rel="noreferrer"
                         target="_blank"
                       >
-                        <button className="hover:text-white hover:bg-pink-600 transition ease-in-out duration-300 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                        <button className="hover:text-white hover:bg-pink-600 transition ease-in-out duration-300 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:ring-4 focus:ring-pink-800 focus:outline-none">
                           Demo
                         </button>
                       </a>
@@ -37,7 +37,7 @@ const Projects = () => {
                         rel="noreferrer"
                         target="_blank"
                       >
-                        <button className="hover:text-white hover:bg-pink-600 transition ease-in-out duration-300 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                        <button className="hover:text-white hover:bg-pink-600 transition ease-in-out duration-300 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:ring-4 focus:ring-pink-800 focus:outline-none">
                           Code
                         </button>
                       </a>

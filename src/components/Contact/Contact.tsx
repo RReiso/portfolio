@@ -20,21 +20,21 @@ const Contact = () => {
                   <label className="font-semibold leading-none">Name</label>
                   <input
                     type="text"
-                    className="leading-none text-gray-50 p-3 focus:outline-none focus:border-pink-700 mt-4 border-0 bg-gray-800 rounded"
+                    className="leading-none text-gray-50 p-3 focus:ring-1 focus:ring-pink-600 focus:outline-none mt-4 border-0 bg-gray-800 rounded"
                   />
                 </div>
                 <div className="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
                   <label className="font-semibold leading-none">Email</label>
                   <input
                     type="email"
-                    className="leading-none text-gray-50 p-3 focus:outline-none focus:border-pink-700 mt-4 border-0 bg-gray-800 rounded"
+                    className="leading-none text-gray-50 p-3 focus:ring-1 focus:ring-pink-600 focus:outline-none mt-4 border-0 bg-gray-800 rounded"
                   />
                 </div>
               </div>
               <div>
                 <div className="w-full flex flex-col mt-8">
                   <label className="font-semibold leading-none">Message</label>
-                  <textarea className="h-40 text-base leading-none text-gray-50 p-3 focus:outline-none focus:border-pink-700 mt-4 bg-gray-800 border-0 rounded"></textarea>
+                  <textarea className="h-40 text-base leading-none text-gray-50 p-3 focus:ring-1 focus:ring-pink-600 focus:outline-none mt-4 bg-gray-800 border-0 rounded"></textarea>
                 </div>
               </div>
               <div className="flex items-center justify-center w-full">
