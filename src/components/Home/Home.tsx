@@ -49,13 +49,10 @@ const Home = () => {
               Let's talk
             </a>
             <a
-              style={{
-                borderColor: "#DD1155",
-              }}
               href="https://drive.google.com/file/d/1K_-VEx948gHzJPKUS7yRCXoUm6vi0BFF/view?usp=sharing"
               rel="noreferrer"
               target="_blank"
-              className="border text-gray-700 border-2 hover:text-white hover:bg-pink-600 mt-10 w-34 ml-1 font-bold py-2 px-4 rounded-lg mt-3 transition ease-in-out duration-300 text-center focus:ring-4 focus:ring-pink-800 focus:outline-none"
+              className="border text-gray-700 border-2 border-[#DD1155] hover:text-white hover:bg-pink-600 mt-10 w-34 ml-1 font-bold py-2 px-4 rounded-lg mt-3 transition ease-in-out duration-300 text-center focus:ring-4 focus:ring-pink-800 focus:outline-none"
             >
               My Resume
             </a>
