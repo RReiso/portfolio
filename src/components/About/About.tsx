@@ -6,9 +6,9 @@ const About = () => {
     width: "4rem",
   };
   return (
-    <section id="about" className="text-gray-200 mt-8 py-14 bg-[#0a192f]">
+    <section id="about" className="text-gray-300 pt-28 py-14 bg-[#192529]">
       <h3 className="text-4xl uppercase text-center tracking-wide">About</h3>
-      <hr className="m-auto h-1 mt-3 w-20 bg-pink-600 border-none" />
+      <hr className="m-auto h-1 mt-3 w-20 bg-green-600 border-none" />
       <div className="md:mt-12 py-5 md:py-0 flex px-4 sm:px-12  md:px-20 flex-col items-center justify-center md:flex-row  mx-auto">
         <p className="py-6 px-1 md:pr-8 md:w-1/2 text-xl leading-8 text-center">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque

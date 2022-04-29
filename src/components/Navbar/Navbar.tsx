@@ -5,10 +5,10 @@ const Navbar = () => {
   return (
     <nav
       id="navbar"
-      className="relative flex text-gray-200 items-center px-1 py-2 bg-[#0a192f]"
+      className="fixed w-full flex text-gray-300 items-center px-1 sm:px-4 py-4 bg-[#192529]"
     >
       <div className="container px-2 mx-auto flex flex-wrap items-center justify-between">
-        <div className="w-full relative flex justify-between md:w-auto md:static md:block md:justify-start">
+        <div className="w-full flex justify-between md:w-auto md:static md:block md:justify-start">
           <a
             className="text-md leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
             href="#home"
@@ -81,6 +81,17 @@ const Navbar = () => {
               >
                 <i className="fab fa-github text-lg leading-lg opacity-75"></i>
                 <span className="sr-only">GitHub profile</span>
+              </a>
+            </li>
+            <li className="nav-item flex items-center">
+              <a
+                className="px-3 py-2 flex items-center text-md uppercase leading-snug hover:opacity-75"
+                href="mailto: rutareiso@protonmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fas fa-envelope text-lg leading-lg opacity-75"></i>
+                <span className="sr-only">Email</span>
               </a>
             </li>
           </ul>

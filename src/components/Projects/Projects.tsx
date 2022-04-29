@@ -10,9 +10,11 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="mt-8 py-14 sm:mx-4">
-      <h3 className="text-4xl uppercase text-center tracking-wide">Projects</h3>
-      <hr className="m-auto h-1 my-3 w-20 bg-pink-600 border-none" />
+    <section id="projects" className="pt-28 py-14 sm:px-4 bg-[#192529]">
+      <h3 className="text-4xl uppercase text-center text-gray-300 tracking-wide">
+        Projects
+      </h3>
+      <hr className="m-auto h-1 my-3 w-20 bg-green-600 border-none" />
       <Categories handleCategory={handleCategory} />
       <div className="w-full mt-8">
         <div className="mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -28,8 +30,8 @@ const Projects = () => {
                     }}
                     className="group container shadow-slate-500 shadow-lg rounded-md flex justify-center items-center mx-auto content-div h-48"
                   >
-                    <div className="transition ease-in-out duration-200 opacity-0 group-hover:opacity-100 group-hover:bg-[#0a192f] h-full w-full group-hover:rounded-md flex flex-col items-center justify-center">
-                      <p className="my-2 font-bold text-gray-200 text-center tracking-wider">
+                    <div className="transition ease-in-out duration-200 opacity-0 group-hover:opacity-100 group-hover:bg-[#192529] h-full w-full group-hover:rounded-md flex flex-col items-center justify-center">
+                      <p className="my-2 font-bold text-gray-300 text-center tracking-wider">
                         {project.title}
                       </p>
                       <div className="text-center">
@@ -38,7 +40,7 @@ const Projects = () => {
                           rel="noreferrer"
                           target="_blank"
                         >
-                          <button className="hover:text-white hover:bg-pink-600 transition ease-in-out duration-300 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:ring-4 focus:ring-pink-800 focus:outline-none">
+                          <button className="hover:text-gray-300 hover:bg-green-600 transition ease-in-out duration-300 text-center rounded-lg px-4 py-3 m-2 bg-[#192529] text-gray-300 font-bold text-lg focus:ring-2 focus:ring-green-600 focus:outline-none">
                             Demo
                           </button>
                         </a>
@@ -47,7 +49,7 @@ const Projects = () => {
                           rel="noreferrer"
                           target="_blank"
                         >
-                          <button className="hover:text-white hover:bg-pink-600 transition ease-in-out duration-300 text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg focus:ring-4 focus:ring-pink-800 focus:outline-none">
+                          <button className="hover:text-gray-300 hover:bg-green-600 transition ease-in-out duration-300 text-center rounded-lg px-4 py-3 m-2 bg-[#192529] text-gray-300 font-bold text-lg focus:ring-2 focus:ring-green-600 focus:outline-none">
                             Code
                           </button>
                         </a>
