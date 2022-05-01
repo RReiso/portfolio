@@ -2,64 +2,88 @@ import React, { useState } from "react";
 
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
+
   return (
     <nav
       id="navbar"
       className={
-        "flex flex-col md:items-center md:justify-between fixed w-screen md:w-min md:h-screen text-gray-300 px-2 sm:px-4 md:pl-6 md:px-2 py-4 bg-[#1D2B2F] shadow-gray-800 shadow-md px-2" +
-        (navbarOpen && " shadow-slate-500 shadow-lg")
+        "flex flex-col md:items-center md:justify-between fixed w-screen md:w-min md:h-screen text-gray-300 md:bg-[#1D2B2F] md:py-4"
       }
     >
-      <div className="w-full flex justify-between md:inline-block md:self-start">
+      <div className="w-full py-2 flex justify-between bg-[#1D2B2F]">
         <a
-          className="text-md leading-relaxed inline-block px-3 py-3 whitespace-nowrap uppercase"
+          className="logo text-green-600 text-3xl md:text-5xl md:pt-2 leading-relaxed inline-block px-8 whitespace-nowrap uppercase"
           href="#home"
         >
-          RReiso
+          RR
         </a>
         <button
-          className=" cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block md:hidden outline-none focus:outline-none"
+          className=" cursor-pointer text-xl leading-none px-6 py-1 border border-solid border-transparent rounded bg-transparent block md:hidden outline-none focus:outline-none"
           type="button"
+          aria-expanded={navbarOpen === true ? "true" : "false"}
           onClick={() => setNavbarOpen(!navbarOpen)}
         >
           <i className="fas fa-bars"></i>
         </button>
       </div>
       <div
-        className={
-          "mr-auto flex flex-col items-center" +
-          (navbarOpen ? " flex" : " hidden md:flex")
+        style={
+          navbarOpen
+            ? {
+                // transform: "translateY(0)",
+                // backgroundColor: "blue",
+                // zIndex: -100,
+                // transition: "transform 0.9s ease",
+              }
+            : {
+                // zIndex: -100,
+                // transition: "transform 0.2s ease",
+                // transform: "translateY(-130%)",
+              }
         }
+        className={
+          "-z-10 bg-[#1D2B2F] px-5 " +
+          (navbarOpen
+            ? "translate-y-0  duration-200"
+            : "transition duration-200 -translate-y-[130%] md:translate-y-0 md:duration-700")
+        }
+        // className={
+        //   "flex flex-col " + (navbarOpen ? " flex" : " hidden md:flex")
+        // }
       >
         <ul className="flex flex-col list-none">
           <li className="nav-item flex">
             <a
-              className="px-3 py-2 text-md uppercase leading-snug hover:opacity-75"
+              className="px-3 py-2 md:py-3 text-md uppercase leading-snug hover:opacity-75"
               href="#home"
+              onClick={() => setNavbarOpen(!navbarOpen)}
             >
               Home
             </a>
           </li>
           <li className="nav-item flex">
             <a
-              className="px-3 py-2 flex text-md uppercase leading-snug hover:opacity-75"
+              className="px-3 py-2 md:py-3 flex text-md uppercase leading-snug hover:opacity-75"
               href="#about"
+              onClick={() => setNavbarOpen(!navbarOpen)}
             >
               About
             </a>
           </li>
           <li className="nav-item flex">
             <a
-              className="px-3 py-2 flex text-md uppercase leading-snug hover:opacity-75"
+              className="px-3 py-2 md:py-3 flex text-md uppercase leading-snug hover:opacity-75"
               href="#projects"
+              onClick={() => setNavbarOpen(!navbarOpen)}
             >
               Projects
             </a>
           </li>
           <li className="nav-item flex">
             <a
-              className="px-3 py-2 flex text-md uppercase leading-snug hover:opacity-75"
+              className="px-3 py-2 md:py-3 flex text-md uppercase leading-snug hover:opacity-75"
               href="#contact"
+              onClick={() => setNavbarOpen(!navbarOpen)}
             >
               Contact
             </a>
@@ -102,7 +126,7 @@ const Navbar = () => {
       <div className="hidden md:flex md:flex-row">
         <li className="nav-item flex">
           <a
-            className="px-3 py-2 flex text-md uppercase leading-snug hover:opacity-75"
+            className="py-2 flex text-md uppercase leading-snug hover:opacity-75"
             href="https://www.linkedin.com/in/ruta-reisoglu/"
             target="_blank"
             rel="noreferrer"
@@ -124,7 +148,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item flex">
           <a
-            className="px-3 py-2 flex text-md uppercase leading-snug hover:opacity-75"
+            className="py-2 flex text-md uppercase leading-snug hover:opacity-75"
             href="mailto: rutareiso@protonmail.com"
             target="_blank"
             rel="noreferrer"
