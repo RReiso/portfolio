@@ -6,17 +6,20 @@ const About = () => {
     width: "4rem",
   };
   return (
-    <section id="about" className="text-gray-300 pt-28 py-14 bg-[#192529]">
+    <section
+      id="about"
+      className="text-gray-300 pt-28 py-14 bg-[#192529] md:pl-28"
+    >
       <h3 className="text-4xl uppercase text-center tracking-wide">About</h3>
       <hr className="m-auto h-1 mt-3 w-20 bg-green-600 border-none" />
-      <div className="md:mt-12 py-5 md:py-0 flex px-4 sm:px-12  md:px-20 flex-col items-center justify-center md:flex-row  mx-auto">
-        <p className="py-6 px-1 md:pr-8 md:w-1/2 text-xl leading-8 text-center">
+      <div className="md:mt-12 py-5 md:py-0 flex px-4 sm:px-12  flex-col items-center justify-center lg:flex-row  mx-auto">
+        <p className="py-6 px-1 lg:pr-8 lg:w-1/2 text-xl leading-8 text-center">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
           tempore, iure adipisci sit, recusandae saepe praesentium in culpa unde
           sequi laudantium aut ullam nobis, assumenda quod facilis autem
           voluptate alias?
         </p>
-        <div className="md:w-1/2">
+        <div className="lg:w-1/2">
           <h6 className="text-2xl text-center py-4">My skills</h6>
           <div className="flex flex-wrap  justify-center">
             <img

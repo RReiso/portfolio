@@ -10,7 +10,10 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="pt-28 py-14 sm:px-4 bg-[#192529]">
+    <section
+      id="projects"
+      className="pt-28 py-14 sm:px-4 bg-[#192529] md:pl-40"
+    >
       <h3 className="text-4xl uppercase text-center text-gray-300 tracking-wide">
         Projects
       </h3>
