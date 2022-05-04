@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import Home from "../Home";
 
-describe("Home", async () => {
+describe("Home", () => {
   test("should render name", () => {
     render(<Home />);
     expect(screen.getByText(/ruta/i)).toBeInTheDocument();
