@@ -43,7 +43,7 @@ const Projects = () => {
                           rel="noreferrer"
                           target="_blank"
                         >
-                          <button className="hover:text-green-600 transition ease-in-out duration-300 text-center px-2 py-1 m-2 text-gray-300 font-bold text-lg focus:text-green-600 focus:outline-none underline underline-offset-4">
+                          <button className="hover:text-green-600 transition ease-in-out duration-300 text-center px-2 py-1 m-2 text-gray-300 font-bold text-lg focus:text-green-600 focus:outline-none">
                             Live
                           </button>
                         </a>
@@ -52,7 +52,7 @@ const Projects = () => {
                           rel="noreferrer"
                           target="_blank"
                         >
-                          <button className="hover:text-green-600 transition ease-in-out duration-300 text-center px-2 py-1 m-2 text-gray-300 font-bold text-lg focus:text-green-600 focus:outline-none underline underline-offset-4">
+                          <button className="hover:text-green-600 transition ease-in-out duration-300 text-center px-2 py-1 m-2 text-gray-300 font-bold text-lg focus:text-green-600 focus:outline-none">
                             Code
                           </button>
                         </a>

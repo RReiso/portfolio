@@ -1,8 +1,12 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Contact = () => {
-  const [messageSent, setMessageSent] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
   const form = useRef(null);
 
   const sendEmail = (e: React.SyntheticEvent) => {
@@ -17,13 +21,27 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setName("");
+          setEmail("");
+          setMessage("");
+          notify();
         },
         (error) => {
           console.log(error.text);
         }
       );
-    setMessageSent(true);
   };
+
+  const notify = () =>
+    toast.success("Your message has been sent. Thank you!", {
+      position: "bottom-center",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: false,
+      progress: undefined,
+    });
 
   return (
     <section
@@ -43,6 +61,9 @@ const Contact = () => {
               <div className="w-full md:w-1/2 flex flex-col">
                 <label className="font-semibold leading-none">Name</label>
                 <input
+                  onChange={(e) => setName(e.target.value)}
+                  required
+                  value={name}
                   type="text"
                   name="name"
                   className="leading-none text-gray-300 p-3 focus:ring-2 focus:ring-green-600 focus:outline-none mt-4 border-0 bg-[#1D2B2F] rounded"
@@ -51,6 +72,9 @@ const Contact = () => {
               <div className="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
                 <label className="font-semibold leading-none">Email</label>
                 <input
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                  value={email}
                   type="email"
                   name="email"
                   className="leading-none text-gray-300 p-3 focus:ring-2 focus:ring-green-600 focus:outline-none mt-4 border-0 bg-[#1D2B2F] rounded"
@@ -61,6 +85,9 @@ const Contact = () => {
               <div className="w-full flex flex-col mt-8">
                 <label className="font-semibold leading-none">Message</label>
                 <textarea
+                  onChange={(e) => setMessage(e.target.value)}
+                  required
+                  value={message}
                   name="message"
                   className="h-40 text-base leading-none text-gray-300 p-3 focus:ring-2 focus:ring-green-600 focus:outline-none mt-4 bg-[#1D2B2F] border-0 rounded"
                 ></textarea>
@@ -77,6 +104,18 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <ToastContainer
+        position="bottom-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable={false}
+        pauseOnHover
+        theme="dark"
+      />
     </section>
   );
 };

@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav
       id="navbar"
       className={
-        "flex flex-col md:items-center md:justify-between fixed w-screen md:w-min md:h-screen text-gray-300 md:bg-[#1D2B2F] md:py-4"
+        "flex flex-col h-16 md:items-center md:justify-between fixed w-screen md:w-min md:h-screen text-gray-300 md:bg-[#1D2B2F] md:py-4 z-10"
       }
     >
       <div className="w-full py-1 flex justify-between bg-[#1D2B2F]">
@@ -27,29 +27,12 @@ const Navbar = () => {
         </button>
       </div>
       <div
-        style={
-          navbarOpen
-            ? {
-                // transform: "translateY(0)",
-                // backgroundColor: "blue",
-                // zIndex: -100,
-                // transition: "transform 0.9s ease",
-              }
-            : {
-                // zIndex: -100,
-                // transition: "transform 0.2s ease",
-                // transform: "translateY(-130%)",
-              }
-        }
         className={
           "-z-10 bg-[#1D2B2F] px-5 " +
           (navbarOpen
-            ? "translate-y-0  duration-200"
+            ? "translate-y-0 duration-200"
             : "transition duration-200 -translate-y-[130%] md:translate-y-0 md:duration-700")
         }
-        // className={
-        //   "flex flex-col " + (navbarOpen ? " flex" : " hidden md:flex")
-        // }
       >
         <ul className="flex flex-col list-none">
           <li className="nav-item flex">

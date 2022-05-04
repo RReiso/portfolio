@@ -12,3 +12,8 @@ html {
   font-family: "Shadows Into Light", cursive;
   font-weight: bold;
 }
+
+:root {
+  --toastify-color-dark: #1d2b2f;
+  --toastify-color-success: #19c89c;
+}
