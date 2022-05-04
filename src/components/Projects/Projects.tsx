@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Particles from "react-tsparticles";
 import projects from "../../projects/projects";
 import Categories from "../Categories/Categories";
 
