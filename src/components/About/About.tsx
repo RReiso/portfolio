@@ -20,7 +20,9 @@ const About = () => {
           voluptate alias?
         </p>
         <div className="lg:w-1/2">
-          <h6 className="text-2xl text-center py-4">My skills</h6>
+          <h6 className="text-2xl text-center py-4">
+            Technologies I work with
+          </h6>
           <div className="flex flex-wrap  justify-center">
             <img
               style={imgStyle}

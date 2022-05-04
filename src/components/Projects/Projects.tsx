@@ -31,9 +31,9 @@ const Projects = () => {
                     style={{
                       backgroundImage: `url(${project.img})`,
                     }}
-                    className="group container shadow-slate-500 shadow-lg rounded-md flex justify-center items-center mx-auto content-div h-48"
+                    className="group container shadow-black-800 shadow-lg rounded-md flex justify-center items-center mx-auto content-div h-52"
                   >
-                    <div className="transition ease-in-out duration-200 opacity-0 group-hover:opacity-100 group-hover:bg-[#192529] h-full w-full group-hover:rounded-md flex flex-col items-center justify-center">
+                    <div className="transition ease-in-out duration-200 opacity-0 group-hover:opacity-100 group-hover:bg-[#1D2B2F] group-hover:rounded-md h-full w-full py-1 flex flex-col items-center justify-between">
                       <p className="my-2 font-bold text-gray-300 text-center tracking-wider">
                         {project.title}
                       </p>
@@ -43,8 +43,8 @@ const Projects = () => {
                           rel="noreferrer"
                           target="_blank"
                         >
-                          <button className="hover:text-gray-300 hover:bg-green-600 transition ease-in-out duration-300 text-center rounded-lg px-4 py-3 m-2 bg-[#192529] text-gray-300 font-bold text-lg focus:ring-2 focus:ring-green-600 focus:outline-none">
-                            Demo
+                          <button className="hover:text-green-600 transition ease-in-out duration-300 text-center px-2 py-1 m-2 text-gray-300 font-bold text-lg focus:text-green-600 focus:outline-none underline underline-offset-4">
+                            Live
                           </button>
                         </a>
                         <a
@@ -52,7 +52,7 @@ const Projects = () => {
                           rel="noreferrer"
                           target="_blank"
                         >
-                          <button className="hover:text-gray-300 hover:bg-green-600 transition ease-in-out duration-300 text-center rounded-lg px-4 py-3 m-2 bg-[#192529] text-gray-300 font-bold text-lg focus:ring-2 focus:ring-green-600 focus:outline-none">
+                          <button className="hover:text-green-600 transition ease-in-out duration-300 text-center px-2 py-1 m-2 text-gray-300 font-bold text-lg focus:text-green-600 focus:outline-none underline underline-offset-4">
                             Code
                           </button>
                         </a>

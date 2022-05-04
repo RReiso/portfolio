@@ -10,7 +10,7 @@ const Navbar = () => {
         "flex flex-col md:items-center md:justify-between fixed w-screen md:w-min md:h-screen text-gray-300 md:bg-[#1D2B2F] md:py-4"
       }
     >
-      <div className="w-full py-2 flex justify-between bg-[#1D2B2F]">
+      <div className="w-full py-1 flex justify-between bg-[#1D2B2F]">
         <a
           className="logo text-green-600 text-3xl md:text-5xl md:pt-2 leading-relaxed inline-block px-8 whitespace-nowrap uppercase"
           href="#home"
