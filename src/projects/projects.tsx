@@ -25,7 +25,7 @@ const projects = [
     tags: ["JavaScript", "React", "Sass", "React Testing Library"],
   },
   {
-    id: 4,
+    id: 3,
     title: "BeMyGuest",
     description:
       "An event planner app that help users create and organize events by managing shopping, task, and guest lists",
@@ -35,7 +35,7 @@ const projects = [
     tags: ["Ruby", "Ruby on Rails", "Minitest", "Bootstrap"],
   },
   {
-    id: 3,
+    id: 4,
     title: "StoryTime",
     description:
       "A back-end API for an Express and React SPA following the MVC pattern.",
@@ -45,7 +45,7 @@ const projects = [
     tags: ["JavaScript", "Node.js", "Express", "PostgreSQL"],
   },
   {
-    id: 4,
+    id: 5,
     title: "FOODSKIP",
     description:
       "A food pick-up service ordering app that serves as an intermediary between the restaurant and client",
@@ -62,7 +62,7 @@ const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "TinyApp",
     description: "A URL shortening app",
     img: "/projectImages/tinyapp.png",
@@ -71,7 +71,7 @@ const projects = [
     tags: ["JavaScript", "Node.js", "Express", "Bootstrap"],
   },
   {
-    id: 5,
+    id: 7,
     title: "Robo Memory Game",
     description: "A fun memory game featuring artwork by my nephew",
     img: "/projectImages/memorygame.png",
@@ -80,7 +80,7 @@ const projects = [
     tags: ["JavaScript"],
   },
   {
-    id: 7,
+    id: 8,
     title: "All about the Star Wars",
     description:
       "A web page showing information about films, characters and starships of the Star Wars franchise",
@@ -90,7 +90,7 @@ const projects = [
     tags: ["JavaScript"],
   },
   {
-    id: 8,
+    id: 9,
     title: "Mastermind",
     description:
       "A command line Mastermind game built as a part of The Odin Project’s curriculum. The user can choose to be the code creator or the code breaker.",
@@ -101,7 +101,7 @@ const projects = [
     tags: ["Ruby"],
   },
   {
-    id: 9,
+    id: 10,
     title: "Teacher's Notes",
     description:
       "A web application for educators to help them create collections of 5-10 min warm-up/learning activities for Zoom classes.",
@@ -111,7 +111,7 @@ const projects = [
     tags: ["Ruby", "Ruby on Rails"],
   },
   {
-    id: 10,
+    id: 11,
     title: "Two player math game",
     description:
       "A command line math game where computer asks two players simple addition questions",

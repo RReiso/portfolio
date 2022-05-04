@@ -32,9 +32,8 @@ const Projects = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-2">
             {filterProjects(category).map((project) => {
               return (
-                <article>
+                <article key={project.id}>
                   <div
-                    key={project.id}
                     style={{
                       backgroundImage: `url(${project.img})`,
                       backgroundRepeat: "no-repeat",

@@ -7,10 +7,10 @@ describe("About", () => {
     expect(screen.getByRole("heading", { name: "About" })).toBeInTheDocument();
   });
 
-  test("should show 'My skills'", () => {
+  test("should show 'Technologies I work with'", () => {
     render(<About />);
     expect(
-      screen.getByRole("heading", { name: /my skills/i })
+      screen.getByRole("heading", { name: /technologies I work with/i })
     ).toBeInTheDocument();
   });
 

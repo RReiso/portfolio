@@ -1,15 +1,10 @@
 import { render, screen } from "@testing-library/react";
 import Home from "../Home";
 
-describe("Home", () => {
+describe("Home", async () => {
   test("should render name", () => {
     render(<Home />);
-    expect(screen.getByText(/ruta reisoglu/i)).toBeInTheDocument();
-  });
-
-  test("should render image", () => {
-    render(<Home />);
-    expect(screen.getByRole("img")).toBeInTheDocument();
+    expect(screen.getByText(/ruta/i)).toBeInTheDocument();
   });
 
   test("should have link to contact form", () => {
@@ -23,9 +18,6 @@ describe("Home", () => {
     render(<Home />);
     const link = screen.getByRole("link", { name: /my resume/i });
     expect(link).toBeInTheDocument();
-    expect(link).toHaveAttribute(
-      "href",
-      "https://drive.google.com/file/d/1K_-VEx948gHzJPKUS7yRCXoUm6vi0BFF/view?usp=sharing"
-    );
+    expect(link).toHaveAttribute("href", "ruta_reisoglu_resume.pdf");
   });
 });
