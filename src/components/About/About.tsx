@@ -19,6 +19,9 @@ const About = () => {
           was lucky enough to discovered something that brings me great joy -
           software development.
         </p>
+        <p className="pt-6 px-1">
+          <i className="fas fa-arrow-down text-2xl leading-lg opacity-75"></i>
+        </p>
         <p className="pt-6 px-1 text-xl leading-8">
           My coding journey started with Harvard University’s CS50 course and
           continued with learning web development.
@@ -29,6 +32,9 @@ const About = () => {
           applications with a variety of tools such as vanilla JavaScript,
           TypeScript, Ruby, React, Node.js, Express, jQuery, PostgreSQL, Ruby on
           Rails and I am eager to learn more.
+        </p>
+        <p className="pt-6 px-1">
+          <i className="fas fa-arrow-down text-2xl leading-lg opacity-75"></i>
         </p>
         <p className="pt-6 px-1 text-xl leading-8">
           Over my career as a math teacher, I worked to align resources,
@@ -43,6 +49,9 @@ const About = () => {
           transition to web development, where I now collaborate with
           cross-functional teams to define project requirements and find
           creative solutions to project roadblocks.
+        </p>
+        <p className="pt-6 px-1">
+          <i className="fas fa-arrow-down text-2xl leading-lg opacity-75"></i>
         </p>
         <p className="pt-6 px-1 text-xl leading-8">
           I am excited to build well tested and meaningful applications and take
