@@ -28,7 +28,7 @@ const projects = [
     id: 3,
     title: "BeMyGuest",
     description:
-      "An event planner app that help users create and organize events by managing shopping, task, and guest lists",
+      "An event planner app that help users create and organize events by managing shopping, task, and guest lists.",
     img: "/projectImages/bemyguest.png",
     demoURL: "https://bemyguestapp.herokuapp.com/",
     githubURL: "https://github.com/RReiso/BeMyGuest",
@@ -48,7 +48,7 @@ const projects = [
     id: 5,
     title: "FOODSKIP",
     description:
-      "A food pick-up service ordering app that serves as an intermediary between the restaurant and client",
+      "A food pick-up service ordering app that serves as an intermediary between the restaurant and client.",
     img: "/projectImages/foodskip.png",
     demoURL: "https://foodskip.herokuapp.com/",
     githubURL: "https://github.com/RReiso/foodskip",
@@ -64,7 +64,7 @@ const projects = [
   {
     id: 6,
     title: "TinyApp",
-    description: "A URL shortening app",
+    description: "A URL shortening app.",
     img: "/projectImages/tinyapp.png",
     demoURL: "https://tinyappurl.herokuapp.com/",
     githubURL: "https://github.com/RReiso/tinyapp",
@@ -73,7 +73,7 @@ const projects = [
   {
     id: 7,
     title: "Robo Memory Game",
-    description: "A fun memory game featuring artwork by my nephew",
+    description: "A fun memory game featuring artwork by my nephew.",
     img: "/projectImages/memorygame.png",
     demoURL: "https://rreiso.github.io/JS-projects/Memory-game/index.html",
     githubURL: "https://github.com/RReiso/JS-projects/tree/main/Memory-game",
@@ -83,7 +83,7 @@ const projects = [
     id: 8,
     title: "All about the Star Wars",
     description:
-      "A web page showing information about films, characters and starships of the Star Wars franchise",
+      "A web page showing information about films, characters and starships of the Star Wars franchise.",
     img: "/projectImages/starwars.png",
     demoURL: "https://rreiso.github.io/starwars-api-project/",
     githubURL: "https://github.com/RReiso/starwars-api-project",
@@ -114,7 +114,7 @@ const projects = [
     id: 11,
     title: "Two player math game",
     description:
-      "A command line math game where computer asks two players simple addition questions",
+      "A command line math game where computer asks two players simple addition questions.",
     img: "/projectImages/twoplayer.png",
     githubURL: "https://github.com/RReiso/two-o-player-math-game",
     tags: ["Ruby"],

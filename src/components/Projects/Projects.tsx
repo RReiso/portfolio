@@ -25,7 +25,7 @@ const Projects = () => {
         Projects
       </h3>
       <hr className="m-auto h-1 my-3 w-20 bg-green-600 border-none" />
-      <Categories handleCategory={handleCategory} />
+      <Categories handleCategory={handleCategory} category={category} />
       <div className="w-full mt-8">
         <div className="mx-auto p-4 flex flex-col justify-center w-full h-full">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-2">
