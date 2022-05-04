@@ -12,15 +12,59 @@ const About = () => {
     >
       <h3 className="text-4xl uppercase text-center tracking-wide">About</h3>
       <hr className="m-auto h-1 mt-3 w-20 bg-green-600 border-none" />
-      <div className="md:mt-12 py-5 md:py-0 flex px-4 sm:px-12  flex-col items-center justify-center lg:flex-row  mx-auto">
-        <p className="py-6 px-1 lg:pr-8 lg:w-1/2 text-xl leading-8 text-center">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-          tempore, iure adipisci sit, recusandae saepe praesentium in culpa unde
-          sequi laudantium aut ullam nobis, assumenda quod facilis autem
-          voluptate alias?
+      <div className="md:mt-12 py-5 md:py-0 flex px-4 sm:px-16 md:px-24 flex-col items-center justify-center mx-auto">
+        <p className="pt-6 px-1 text-xl leading-8">
+          A couple of years a go my life took a 180 degree turn - I left Europe,
+          moved to Canada, faced countless challenges of building a new life and
+          was lucky enough to discovered something that brings me great joy -
+          software development.
         </p>
-        <div className="lg:w-1/2">
-          <h6 className="text-2xl text-center py-4">
+        <p className="pt-6 px-1 text-xl leading-8">
+          My coding journey started with Harvard University’s CS50 course and
+          continued with learning web development.
+        </p>
+        <p className="pt-6 px-1 text-xl leading-8">
+          Every tech tool I have worked with has amazed me and sparked a genuine
+          interest to explore more. Because of that I have built web
+          applications using a variety of tools such as vanilla JavaScript,
+          TypeScript, Ruby, React, Node.js, Express, jQuery, PostgreSQL, Ruby on
+          Rails and I am eager to learn more.
+        </p>
+        <p className="pt-6 px-1 text-xl leading-8">
+          Over my career as a Math Teacher, I worked to align resources,
+          materials, and learning outcomes to the broader curriculum, while
+          implementing new technologies to modernize the student learning
+          environment.
+        </p>
+        <p className="pt-6 px-1 text-xl leading-8">
+          Being a part of a school team has also taught me how to analyze,
+          evaluate, and communicate my observations and make sure my ideas are
+          coming across clearly. These skills have been especially useful in my
+          transition to web development, where I now collaborate with
+          cross-functional teams to define project requirements and find
+          creative solutions to project roadblocks.
+        </p>
+        <p className="pt-6 px-1 text-xl leading-8">
+          I am excited to build well tested and meaningful applications and take
+          part in projects and activities that make a difference in people's
+          lives and benefit the society.
+        </p>
+        <p className="pt-6 pb-8 px-1 text-xl leading-8">
+          Outside coding, I read novels, ocasionally bake some treats and
+          travel. Some of my most favourite countries that I have been fortunate
+          to visit are Australia, Turkey and Japan. If you ever find yourself
+          wandering the streets of Osaka, try some{" "}
+          <em>
+            <strong>okonomiyaki</strong>
+          </em>{" "}
+          or{" "}
+          <em>
+            <strong>takoyaki</strong>
+          </em>{" "}
+          - you won't regret it!
+        </p>
+        <div className="lg:w-2/3">
+          <h6 className="text-2xl text-center py-6">
             Technologies I work with
           </h6>
           <div className="flex flex-wrap  justify-center">

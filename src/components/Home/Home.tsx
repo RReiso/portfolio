@@ -101,7 +101,7 @@ const Home = () => {
                 href={resume}
                 rel="noreferrer"
                 target="_blank"
-                className="border text-gray-300 border-2 border-green-600 hover:text-gray-800 hover:bg-green-600 mt-10 w-34 ml-2 font-bold py-2 px-2 rounded-md mt-3 transition ease-in-out duration-300 text-center focus:ring-2 focus:ring-green-600 focus:outline-none"
+                className="border bg-[#192529] text-gray-300 border-2 border-green-600 hover:text-gray-800 hover:bg-green-600 mt-10 w-34 ml-2 font-bold py-2 px-2 rounded-md mt-3 transition ease-in-out duration-300 text-center focus:ring-2 focus:ring-green-600 focus:outline-none"
               >
                 My Resume
               </a>
