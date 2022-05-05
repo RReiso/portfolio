@@ -12,7 +12,7 @@ const projects = [
       "React",
       "Material UI",
       "React Testing Library",
-      "Google Maps API, OC Transpo API, Opne Weather API",
+      "Google Maps API, OC Transpo API, Open Weather API",
     ],
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     id: 3,
     title: "BeMyGuest",
     description:
-      "An event planner app that help users create and organize events by managing shopping, task, and guest lists.",
+      "An event planner app that helps users create and organize events by managing shopping, task, and guest lists.",
     img: "/projectImages/bemyguest.png",
     demoURL: "https://bemyguestapp.herokuapp.com/",
     githubURL: "https://github.com/RReiso/BeMyGuest",
@@ -48,7 +48,7 @@ const projects = [
     id: 5,
     title: "FOODSKIP",
     description:
-      "A food pick-up service ordering app that serves as an intermediary between the restaurant and client.",
+      "A food pick-up service ordering app that serves as an intermediary between the restaurant and the client.",
     img: "/projectImages/foodskip.png",
     demoURL: "https://foodskip.herokuapp.com/",
     githubURL: "https://github.com/RReiso/foodskip",
@@ -93,7 +93,7 @@ const projects = [
     id: 9,
     title: "Mastermind",
     description:
-      "A command line Mastermind game built as a part of The Odin Project’s curriculum. The user can choose to be the code creator or the code breaker.",
+      "A command line Mastermind game built as a part of The Odin Project’s curriculum. The user can choose to be the code maker or the code breaker.",
     img: "https://raw.githubusercontent.com/RReiso/fcc-portfolio/main/images/top.png",
     demoURL: "https://replit.com/@rreiso/Mastermind-game",
     githubURL:

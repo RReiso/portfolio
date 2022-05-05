@@ -16,23 +16,21 @@ const About = () => {
         <p className="pt-6 px-1 text-xl leading-8">
           A couple of years ago my life took a 180 degree turn - I left Europe,
           moved to Canada, faced countless challenges of building a new life and
-          was lucky enough to discovered something that brings me great joy -
-          software development.
+          was lucky enough to discover something that brings me great joy -
+          coding.
         </p>
         <p className="pt-6 px-1">
           <i className="fas fa-arrow-down text-2xl leading-lg opacity-75"></i>
         </p>
         <p className="pt-6 px-1 text-xl leading-8">
-          My coding journey started with Harvard University’s CS50 course and
-          continued with learning web development.
+          My tech journey started with Harvard University’s CS50 course and
+          continued with learning web development. Every tech tool I have worked
+          with has amazed me and sparked a genuine interest to explore more. I
+          have built web applications with a variety of tools such as vanilla
+          JavaScript, TypeScript, Ruby, React, Node.js, Express, jQuery,
+          PostgreSQL, Ruby on Rails and I am eager to learn more.
         </p>
-        <p className="pt-6 px-1 text-xl leading-8">
-          Every tech tool I have worked with has amazed me and sparked a genuine
-          interest to explore more. Because of that I have built web
-          applications with a variety of tools such as vanilla JavaScript,
-          TypeScript, Ruby, React, Node.js, Express, jQuery, PostgreSQL, Ruby on
-          Rails and I am eager to learn more.
-        </p>
+
         <p className="pt-6 px-1">
           <i className="fas fa-arrow-down text-2xl leading-lg opacity-75"></i>
         </p>
@@ -46,9 +44,8 @@ const About = () => {
           Being a part of a school team has also taught me how to analyze,
           evaluate, and communicate my observations and make sure my ideas are
           coming across clearly. These skills have been especially useful in my
-          transition to web development, where I now collaborate with
-          cross-functional teams to define project requirements and find
-          creative solutions to project roadblocks.
+          transition to web development, where collaborations and finding
+          creative solutions to project roadblocks are parts of my every day.
         </p>
         <p className="pt-6 px-1">
           <i className="fas fa-arrow-down text-2xl leading-lg opacity-75"></i>
