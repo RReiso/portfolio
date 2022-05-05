@@ -48,7 +48,7 @@ const About = () => {
           Being a part of a school team has also taught me how to analyze,
           evaluate, and communicate my observations and make sure my ideas are
           coming across clearly. These skills have been especially useful in my
-          transition to web development, where collaborations and finding
+          transition to web development, where collaboration and finding
           creative solutions to project roadblocks are parts of my every day.
         </p>
         <p className="pt-6 px-1">
