@@ -20,7 +20,9 @@ const About = () => {
           coding.
         </p>
         <p className="pt-6 px-1">
-          <i className="fas fa-arrow-down text-2xl leading-lg opacity-75"></i>
+          <i className="fas fa-circle text-xs opacity-75 px-1"></i>
+          <i className="fas fa-circle text-xs opacity-75 px-1"></i>
+          <i className="fas fa-circle text-xs opacity-75 px-1"></i>
         </p>
         <p className="pt-6 px-1 text-xl leading-8">
           My tech journey started with Harvard University’s CS50 course and
@@ -32,7 +34,9 @@ const About = () => {
         </p>
 
         <p className="pt-6 px-1">
-          <i className="fas fa-arrow-down text-2xl leading-lg opacity-75"></i>
+          <i className="fas fa-circle text-xs opacity-75 px-1"></i>
+          <i className="fas fa-circle text-xs opacity-75 px-1"></i>
+          <i className="fas fa-circle text-xs opacity-75 px-1"></i>
         </p>
         <p className="pt-6 px-1 text-xl leading-8">
           Over my career as a math teacher, I worked to align resources,
@@ -48,12 +52,19 @@ const About = () => {
           creative solutions to project roadblocks are parts of my every day.
         </p>
         <p className="pt-6 px-1">
-          <i className="fas fa-arrow-down text-2xl leading-lg opacity-75"></i>
+          <i className="fas fa-circle text-xs opacity-75 px-1"></i>
+          <i className="fas fa-circle text-xs opacity-75 px-1"></i>
+          <i className="fas fa-circle text-xs opacity-75 px-1"></i>
         </p>
         <p className="pt-6 px-1 text-xl leading-8">
           I am excited to build well tested and meaningful applications and take
           part in projects and activities that make a difference in people's
           lives and benefit the society.
+        </p>
+        <p className="pt-6 px-1">
+          <i className="fas fa-circle text-xs opacity-75 px-1"></i>
+          <i className="fas fa-circle text-xs opacity-75 px-1"></i>
+          <i className="fas fa-circle text-xs opacity-75 px-1"></i>
         </p>
         <p className="pt-6 pb-8 px-1 text-xl leading-8">
           Outside coding, I read novels, ocasionally bake some treats and
