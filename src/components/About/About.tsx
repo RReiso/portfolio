@@ -81,7 +81,7 @@ const About = () => {
           - you won't regret it!
         </p>
         <div className="lg:w-2/3">
-          <h6 className="text-2xl text-center py-6">
+          <h6 className="text-2xl text-center pb-6 pt-20">
             Technologies I work with
           </h6>
           <div className="flex flex-wrap  justify-center">
