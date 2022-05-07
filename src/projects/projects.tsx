@@ -108,7 +108,7 @@ const projects = [
     img: "https://github.com/RReiso/teachers-notes/blob/main/app/assets/images/school2.jpg?raw=true",
     demoURL: "https://teachersnotes.herokuapp.com/",
     githubURL: "https://github.com/RReiso/teachers-notes",
-    tags: ["Ruby", "Ruby on Rails"],
+    tags: ["Ruby", "Ruby on Rails", "Bootstrap"],
   },
   {
     id: 11,

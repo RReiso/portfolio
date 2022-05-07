@@ -7,10 +7,12 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [sending, setSending] = useState(false);
   const form = useRef(null);
 
   const sendEmail = (e: React.SyntheticEvent) => {
     e.preventDefault();
+    setSending(true);
     emailjs
       .sendForm(
         process.env.REACT_APP_EMAIL_SERVICE_ID as string,
@@ -25,6 +27,7 @@ const Contact = () => {
           setEmail("");
           setMessage("");
           notify();
+          setSending(false);
         },
         (error) => {
           console.log(error.text);
@@ -96,9 +99,13 @@ const Contact = () => {
             <div className="flex items-center justify-center w-full">
               <button
                 type="submit"
-                className="mt-9 border-2 border-green-600 font-semibold leading-none text-gray-800 py-4 px-10 bg-green-600 rounded hover:text-gray-300 hover:bg-[#192529] hover:border-2 hover:border-green-600 focus:ring-2 focus:ring-green-600 focus:outline-none"
+                className={
+                  !sending
+                    ? `mt-9 border-2 border-green-600 font-semibold leading-none text-gray-800 py-4 px-10 bg-green-600 rounded hover:text-gray-300 hover:bg-[#192529] hover:border-2 hover:border-green-600 focus:ring-2 focus:ring-green-600 focus:outline-none`
+                    : `mt-9 ont-semibold py-4 px-14 rounded leading-none text-gray-300 cursor-not-allowed opacity-50 bg-[#192529] border-2 border-green-600 ring-2 ring-green-600`
+                }
               >
-                Send message
+                {!sending ? "Send message" : "Sending..."}
               </button>
             </div>
           </form>
