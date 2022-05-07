@@ -37,7 +37,7 @@ const Contact = () => {
 
   const notify = () =>
     toast.success("Your message has been sent. Thank you!", {
-      position: "bottom-center",
+      position: "top-center",
       autoClose: 4000,
       hideProgressBar: false,
       closeOnClick: true,
@@ -98,6 +98,7 @@ const Contact = () => {
             </div>
             <div className="flex items-center justify-center w-full">
               <button
+                disabled={sending}
                 type="submit"
                 className={
                   !sending
