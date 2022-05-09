@@ -28,8 +28,8 @@ const About = () => {
           My tech journey started with Harvard University’s CS50 course and
           continued with learning web development. Every tech tool I have worked
           with has amazed me and sparked a genuine interest to explore more. I
-          have built web applications with a variety of tools such as vanilla
-          JavaScript, TypeScript, Ruby, React, Node.js, Express, jQuery,
+          have built web applications with a variety of languages and tools such
+          as JavaScript, TypeScript, Ruby, React, Node.js, Express, jQuery,
           PostgreSQL, Ruby on Rails and I am eager to learn more.
         </p>
 
@@ -39,15 +39,14 @@ const About = () => {
           <i className="fas fa-circle text-xs opacity-75 px-1"></i>
         </p>
         <p className="pt-6 px-1 text-xl leading-8">
-          Over my career as a math teacher, I worked to align resources,
-          materials, and learning outcomes to the broader curriculum, while
-          implementing new technologies to modernize the student learning
-          environment.
+          Over my career as a math teacher, I actively utilized new technologies
+          in my classroom to engage students in dynamic learning and modernize
+          their learning environment.
         </p>
         <p className="pt-6 px-1 text-xl leading-8">
-          Being a part of a school team has also taught me how to analyze,
-          evaluate, and communicate my observations and make sure my ideas are
-          coming across clearly. These skills have been especially useful in my
+          Being a part of a school team has taught me how to analyze, evaluate,
+          and communicate my observations and make sure my ideas are coming
+          across clearly. These skills have been especially useful in my
           transition to web development, where collaboration and finding
           creative solutions to project roadblocks are parts of my every day.
         </p>
@@ -57,9 +56,9 @@ const About = () => {
           <i className="fas fa-circle text-xs opacity-75 px-1"></i>
         </p>
         <p className="pt-6 px-1 text-xl leading-8">
-          I am excited to build well tested and meaningful applications and take
-          part in projects and activities that make a difference in people's
-          lives and benefit the society.
+          I am excited to build well tested and meaningful applications and
+          participate in projects and activities that make a difference in
+          people's lives and benefit the society.
         </p>
         <p className="pt-6 px-1">
           <i className="fas fa-circle text-xs opacity-75 px-1"></i>
