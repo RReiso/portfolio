@@ -109,34 +109,34 @@ const Navbar = () => {
       <div className="hidden md:flex md:flex-row">
         <li className="nav-item flex">
           <a
-            className="py-2 flex text-md uppercase leading-snug hover:opacity-75"
+            className="py-2 flex text-2xl text-green-600 uppercase leading-snug hover:text-gray-300 transition ease-in-out duration-200 hover:bg-[#1D2B2F]"
             href="https://www.linkedin.com/in/ruta-reisoglu/"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fab fa-linkedin text-lg leading-lg opacity-75"></i>
+            <i className="fab fa-linkedin opacity-75"></i>
             <span className="sr-only">LinkedIn profile</span>
           </a>
         </li>
         <li className="nav-item flex">
           <a
-            className="px-3 py-2 flex text-md uppercase leading-snug hover:opacity-75"
+            className="px-3 py-2 flex text-2xl text-green-600 uppercase leading-snug hover:text-gray-300 transition ease-in-out duration-200 hover:bg-[#1D2B2F]"
             href="https://github.com/RReiso"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fab fa-github text-lg leading-lg opacity-75"></i>
+            <i className="fab fa-github opacity-75"></i>
             <span className="sr-only">GitHub profile</span>
           </a>
         </li>
         <li className="nav-item flex">
           <a
-            className="py-2 flex text-md uppercase leading-snug hover:opacity-75"
+            className="py-2 flex text-2xl text-green-600 uppercase leading-snug hover:text-gray-300 transition ease-in-out duration-200 hover:bg-[#1D2B2F]"
             href="mailto: rutareiso@protonmail.com"
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fas fa-envelope text-lg leading-lg opacity-75"></i>
+            <i className="fas fa-envelope opacity-75"></i>
             <span className="sr-only">Email</span>
           </a>
         </li>
