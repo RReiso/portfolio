@@ -180,6 +180,12 @@ const About = () => {
               alt="GitHub icon"
               className="m-3"
             />
+            <img
+              style={imgStyle}
+              src={require("../../assets/icons/mocha.png")}
+              alt="Mocha icon"
+              className="m-3"
+            />
           </div>
         </div>
       </div>

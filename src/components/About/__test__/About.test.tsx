@@ -14,8 +14,8 @@ describe("About", () => {
     ).toBeInTheDocument();
   });
 
-  test("should render 16 icons", () => {
+  test("should render 17 icons", () => {
     render(<About />);
-    expect(screen.getAllByRole("img").length).toBe(16);
+    expect(screen.getAllByRole("img").length).toBe(17);
   });
 });

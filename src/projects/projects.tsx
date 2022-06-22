@@ -42,7 +42,7 @@ const projects = [
     img: "/projectImages/storytime.png",
     demoURL: "",
     githubURL: "https://github.com/kivakiva/story-time/tree/master/server",
-    tags: ["JavaScript", "Node.js", "Express", "PostgreSQL"],
+    tags: ["JavaScript", "Node.js", "Express", "PostgreSQL", "Mocha", "Chai"],
   },
   {
     id: 5,
@@ -83,11 +83,11 @@ const projects = [
     id: 8,
     title: "All about the Star Wars",
     description:
-      "A web page showing information about films, characters and starships of the Star Wars franchise.",
+      "A web page showing information about films, characters and starships from the Star Wars API.",
     img: "/projectImages/starwars.png",
     demoURL: "https://rreiso.github.io/starwars-api-project/",
     githubURL: "https://github.com/RReiso/starwars-api-project",
-    tags: ["JavaScript"],
+    tags: ["JavaScript", "Star Wars API"],
   },
   {
     id: 9,
