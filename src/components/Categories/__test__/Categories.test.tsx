@@ -4,9 +4,9 @@ import Categories from "../Categories";
 
 describe("Categories", () => {
   const handleCategory = jest.fn();
-  test("should render 8 buttons", () => {
+  test("should render 9 buttons", () => {
     render(<Categories handleCategory={handleCategory} category="all" />);
-    expect(screen.getAllByRole("button").length).toBe(8);
+    expect(screen.getAllByRole("button").length).toBe(9);
   });
 
   test("should call 'handleCategory` on button click", () => {

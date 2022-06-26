@@ -119,5 +119,34 @@ const projects = [
     githubURL: "https://github.com/RReiso/two-o-player-math-game",
     tags: ["Ruby"],
   },
+  {
+    id: 12,
+    title: "Landing Page",
+    description: "freeCodeCamp's Responsive Web Design Project - Landing Page",
+    img: "/projectImages/landingpage.png",
+    demoURL: "https://rreiso.github.io/landing-page/",
+    githubURL: "https://github.com/RReiso/landing-page",
+    tags: ["HTML & CSS"],
+  },
+  {
+    id: 13,
+    title: "Registration Form",
+    description:
+      "freeCodeCamp's Responsive Web Design Project - Registration Form",
+    img: "/projectImages/regform.png",
+    demoURL: "https://rreiso.github.io/registration-form/",
+    githubURL: "https://github.com/RReiso/registration-form",
+    tags: ["HTML & CSS"],
+  },
+  {
+    id: 14,
+    title: "Technical Documentation Page",
+    description:
+      "freeCodeCamp's Responsive Web Design Project - Technical Documentation Page",
+    img: "/projectImages/docpage.png",
+    demoURL: "https://rreiso.github.io/technical-documentation-page/",
+    githubURL: "https://github.com/RReiso/technical-documentation-page",
+    tags: ["HTML & CSS"],
+  },
 ];
 export default projects;

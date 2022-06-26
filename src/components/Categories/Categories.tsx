@@ -5,6 +5,7 @@ interface CategoriesProps {
   category: string;
 }
 const categories = [
+  "HTML & CSS",
   "JavaScript",
   "TypeScript",
   "Ruby",
