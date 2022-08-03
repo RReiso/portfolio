@@ -58,7 +58,7 @@ const About = () => {
         <p className="pt-6 px-1 text-xl leading-8">
           I am excited to build well tested and meaningful applications and
           participate in projects and activities that make a difference in
-          people's lives and benefit the society.
+          people's lives and benefit society.
         </p>
         <p className="pt-6 px-1">
           <i className="fas fa-circle text-xs opacity-75 px-1"></i>
