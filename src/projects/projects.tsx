@@ -30,7 +30,7 @@ const projects = [
     description:
       "An event planner app that helps users create and organize events by managing shopping, task, and guest lists.",
     img: "/projectImages/bemyguest.png",
-    demoURL: "https://bemyguestapp.herokuapp.com/",
+    demoURL: "",
     githubURL: "https://github.com/RReiso/BeMyGuest",
     tags: ["Ruby", "Ruby on Rails", "Minitest", "Bootstrap"],
   },
@@ -50,7 +50,7 @@ const projects = [
     description:
       "A food pick-up service ordering app that serves as an intermediary between the restaurant and the client.",
     img: "/projectImages/foodskip.png",
-    demoURL: "https://foodskip.herokuapp.com/",
+    demoURL: "",
     githubURL: "https://github.com/RReiso/foodskip",
     tags: [
       "JavaScript",
@@ -66,7 +66,7 @@ const projects = [
     title: "TinyApp",
     description: "A URL shortening app.",
     img: "/projectImages/tinyapp.png",
-    demoURL: "https://tinyappurl.herokuapp.com/",
+    demoURL: "",
     githubURL: "https://github.com/RReiso/tinyapp",
     tags: ["JavaScript", "Node.js", "Express", "Bootstrap"],
   },
@@ -106,7 +106,7 @@ const projects = [
     description:
       "A web application for educators to help them create collections of 5-10 min warm-up/learning activities for Zoom classes.",
     img: "https://github.com/RReiso/teachers-notes/blob/main/app/assets/images/school2.jpg?raw=true",
-    demoURL: "https://teachersnotes.herokuapp.com/",
+    demoURL: "",
     githubURL: "https://github.com/RReiso/teachers-notes",
     tags: ["Ruby", "Ruby on Rails", "Bootstrap"],
   },
