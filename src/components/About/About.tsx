@@ -47,16 +47,6 @@ const About = () => {
           <i className="fas fa-circle text-xs opacity-75 px-1"></i>
           <i className="fas fa-circle text-xs opacity-75 px-1"></i>
         </p>
-        <p className="pt-6 px-1 text-xl leading-8">
-          I enjoy building well tested and meaningful applications and
-          participate in projects and activities that make a difference in
-          people's lives and benefit society.
-        </p>
-        <p className="pt-6 px-1">
-          <i className="fas fa-circle text-xs opacity-75 px-1"></i>
-          <i className="fas fa-circle text-xs opacity-75 px-1"></i>
-          <i className="fas fa-circle text-xs opacity-75 px-1"></i>
-        </p>
         <p className="pt-6 pb-8 px-1 text-xl leading-8">
           Outside coding, I read novels, ocasionally bake some treats and
           travel. Some of my most favourite countries that I have been fortunate
